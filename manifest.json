@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "全国海底捞排队神器！",
+    "version": "4.0",
+    "description": "全国海底捞排队神器！",   
+    "content_scripts": [
+        {
+            "matches": ["*://superapp.kiwa-tech.com/*"],
+            "js": ["js/jq.js", "js/grab.js"]
+        }
+    ]
+}
